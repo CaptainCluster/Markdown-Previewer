@@ -1,0 +1,74 @@
+body {
+  background-color: #1a1a1a;
+}
+/*Container contains the editor and the preview*/
+#container {
+  display: grid;
+  background-color: #1a1a1a;
+  place-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+/*Editor, where the user inserts the text*/
+#editor {
+  width: 600px;
+  min-height: 200px;
+}
+#editor-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  overflow: auto;
+}
+
+/*Preview components, where the parsed markdown is displayed*/
+#preview {
+  border: 2px solid black;
+  color: #cccccc;
+  background: #212121;
+  width: 1600px;
+  height: 99%;
+  min-width: 100px;
+  overflow: visible;
+}
+#preview-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  overflow: auto;
+}
+
+/*Styling for the markdown within the preview*/
+#preview h1 {                   /*Main headers*/
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#preview h2, h3, h4, h5, h6 {   /*Sub-Headers*/
+  color: #cccccc;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#preview code {             
+  color: #f44336;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#preview pre {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#preview img {              
+  max-width: 99%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#preview p {               
+  margin-left: 10px;
+  margin-right: 10px;
+}
