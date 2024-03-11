@@ -7,9 +7,9 @@
 import React from "react";
 
 /**
- * 
- * @param {}
- * @returns A div element that contains the textarea where the user writes text
+ * @param   {onTextChange}          Event handler in order to do markdown conversion
+ * @param   {string} defaultText    The default text to be displayed in the textarea
+ * @returns {JSXComponent}          The editor component
  */
 export default function EditorWrap({ onTextChange, defaultText }) {
     return ( 

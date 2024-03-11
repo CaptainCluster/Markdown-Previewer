@@ -10,6 +10,10 @@ import PreviewWrap from "./preview_wrap";
 import { marked } from "https://cdn.jsdelivr.net/npm/marked/lib/marked.esm.js";
 import { DEFAULT_MARKDOWN } from "./editor_defaults";
 
+
+/**
+ * @returns {JSXComponent} A container containing all the JSX components
+ */
 export default function Container() {
     const [text, setText] = useState("");
 
