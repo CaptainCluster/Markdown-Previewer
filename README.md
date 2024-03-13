@@ -24,10 +24,10 @@ This can be done by running the following command:
 🚀 Running the program
 ---
 
-In order to run the program, all you need to do is type this command:
+In order to start the program, all you need to do is run this command:
 > `npm start`
 
-After this, you are good to go! 
+After this, you are good to go!
 
 🙏 Credits
 ---
