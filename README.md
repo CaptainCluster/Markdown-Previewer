@@ -4,6 +4,8 @@ Markdown Previewer is the second project for the *Front End Development Librarie
 It utilizes the **React** JavaScript library to build the UI. Furthermore, the program uses **Marked** to parse the user 
 input in the Editor component and the parsed markdown will then be displayed in the Preview component.
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 
 📚 Dependencies
 ---
